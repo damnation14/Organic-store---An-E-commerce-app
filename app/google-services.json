@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "382748577",
+    "firebase_url": "https://organic-store-app.firebaseio.com",
+    "project_id": "organic-store-app",
+    "storage_bucket": "organic-store-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:382748577:android:c10c567818fde509b0ede0",
+        "android_client_info": {
+          "package_name": "com.example.organicstoreapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "382748577-ija0cdov9bt4ndbsvrj2qnq6n6g2n6ob.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.organicstoreapp",
+            "certificate_hash": "3e6cfdc169d4537ea90dd96fb95a74f09011375b"
+          }
+        },
+        {
+          "client_id": "382748577-mud78mjognp6njehejn3i7gsl2q1kj97.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdxo2ncZUEOHkKJ9IyBhkhb1bJT7Y9aIU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "382748577-mud78mjognp6njehejn3i7gsl2q1kj97.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

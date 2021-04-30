@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="150dp"
+    android:layout_height="120dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="200dp"
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/productimage1"
+            android:layout_marginTop="18dp"
+            android:layout_width="110dp"
+            android:layout_height="66dp"
+            android:layout_marginLeft="20dp"
+            app:srcCompat="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/productsdescriptiontv1"
+            android:layout_width="109dp"
+            android:layout_height="13dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="102dp"
+            android:text="Add"
+            app:layout_constraintTop_toBottomOf="@+id/productpricetv" />
+
+        <TextView
+            android:id="@+id/productpricetv1"
+            android:layout_width="109dp"
+            android:layout_height="13dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="86dp"
+            android:text="TextView"
+            app:layout_constraintTop_toBottomOf="@+id/productnametv" />
+
+
+
+        <TextView
+            android:id="@+id/productnametv1"
+            android:layout_width="109dp"
+            android:layout_height="13dp"
+            android:layout_marginTop="1dp"
+            android:text="TextView"
+            android:layout_marginLeft="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/productimageIV" />
+</RelativeLayout>
+
+</androidx.cardview.widget.CardView>

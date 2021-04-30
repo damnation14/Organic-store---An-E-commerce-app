@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sellers.SellerProductCategory">
+    <TextView
+        android:id="@+id/slogan_categorytv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Add New Product"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        />
+    <LinearLayout
+        android:id="@+id/linear_cat_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="100dp"
+        android:layout_below="@+id/slogan_categorytv"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/IV_wheat"
+            android:layout_width="110dp"
+            android:layout_height="120dp"
+            android:src="@drawable/wheat" />
+
+        <ImageView
+            android:id="@+id/IV_dals"
+            android:layout_width="110dp"
+            android:layout_height="120dp"
+            android:src="@drawable/masalas"
+            />
+        <ImageView
+            android:id="@+id/IV_dryfruits"
+            android:layout_width="110dp"
+            android:layout_height="120dp"
+            android:src="@drawable/dryfruits"
+            />
+
+        <ImageView
+            android:id="@+id/IV_spices"
+            android:layout_width="110dp"
+            android:layout_height="120dp"
+            android:src="@drawable/spices" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linear_cat_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_below="@+id/linear_cat_1"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:id="@+id/IV_oils"
+            android:layout_width="110dp"
+            android:layout_height="120dp"
+            android:src="@drawable/oilsghee"
+            />
+        <ImageView
+            android:id="@+id/IV_producedfood"
+            android:layout_width="110dp"
+            android:layout_height="120dp"
+            android:src="@drawable/producedfood"
+            />
+
+        <ImageView
+            android:id="@+id/IV_rice"
+            android:layout_width="110dp"
+            android:layout_height="120dp"
+            android:src="@drawable/rice" />
+        <ImageView
+            android:id="@+id/IV_saltsugar"
+            android:layout_width="110dp"
+            android:layout_height="120dp"
+            android:src="@drawable/saltsugarj" />
+
+    </LinearLayout>
+</RelativeLayout>

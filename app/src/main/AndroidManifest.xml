@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.organicstoreapp">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Admin.AdminCheckNewProducts"></activity>
+        <activity android:name=".Admin.AdminHome" />
+        <activity
+            android:name=".Sellers.SellerHome"
+            android:label="@string/title_activity_seller_home" />
+        <activity android:name=".Sellers.SellerLogin" />
+        <activity android:name=".Sellers.SellerRegistration" />
+        <activity android:name=".Buyer.ResetPassword" />
+        <activity android:name=".Admin.AdminMaintainProducts" />
+        <activity android:name=".Buyer.SearchProducts" />
+        <activity android:name=".Admin.AddminUserProducts" />
+        <activity android:name=".Admin.AdminNewOrders" />
+        <activity android:name=".Buyer.SelectnewOrOffer" />
+        <activity android:name=".Admin.AdminAddNewOfferProduct" />
+        <activity android:name=".Admin.AdminOfferCategory" />
+        <activity android:name=".Buyer.placeorder" />
+        <activity android:name=".Buyer.Cart" />
+        <activity android:name=".Buyer.ProductDetails" />
+        <activity android:name=".Buyer.Settings" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+        <activity
+            android:name=".Buyer.Home"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Sellers.SellerProductCategory" />
+        <activity android:name=".Sellers.SellerAddNewProduct" />
+        <activity android:name=".Buyer.Register" />
+        <activity android:name=".Buyer.Login" />
+        <activity android:name=".Buyer.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

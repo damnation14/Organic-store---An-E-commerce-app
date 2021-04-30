@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Buyer.MainActivity"
+    android:background="#fff"
+    >
+    <ImageView
+        android:id="@+id/applogo"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/logo"
+        />
+    <Button
+        android:id="@+id/join_now_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="15dp"
+        android:layout_above="@+id/loginbtn"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/buttons"
+        android:padding="30dp"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:text="Join Now"
+        android:textColor="@android:color/black"
+        />
+    <Button
+        android:id="@+id/loginbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/buttons"
+        android:padding="20dp"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:layout_above="@+id/seller_begin"
+        android:text="Already have an Account? Login here."
+        android:textColor="@android:color/black"
+        />
+
+    <TextView
+        android:id="@+id/seller_begin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="10dp"
+        android:text="Wants to become a Seller?"
+        android:textSize="20dp"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:textStyle="bold"
+
+
+        />
+</RelativeLayout>

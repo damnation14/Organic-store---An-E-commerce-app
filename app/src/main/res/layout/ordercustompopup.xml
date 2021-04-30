@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="300dp"
+    android:orientation="vertical"
+    android:background="@color/bluedark"
+    android:padding="5dp"
+    android:layout_gravity="center">
+
+    <TextView
+        android:id="@+id/cutbtn1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:textColor="#fff"
+        android:text="X"
+        android:textStyle="bold"
+        android:layout_gravity="end"
+        android:gravity="center"
+        android:background="@drawable/circlebackgroound"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/orderplacetext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your order has been successfully placed.."
+            android:textSize="26dp"
+            android:textStyle="bold"
+            android:textColor="@color/bluelight"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"/>
+        <Button
+            android:id="@+id/selectemail"
+            android:layout_width="230dp"
+            android:layout_height="50dp"
+            android:text="Check Email"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"/>
+        <Button
+            android:id="@+id/selectShopping"
+            android:layout_width="230dp"
+            android:layout_height="50dp"
+            android:text="Continue Shopping"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+</LinearLayout>
