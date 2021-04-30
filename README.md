@@ -7,5 +7,14 @@
 - The admin approves various products that the seller wants to sell. The admin confirms the status of the orders and reviews the orders. 
 - The seller adds the products that they want to sell by providing the necessary details and wait for the confirmation from the admin to be approved
 
-![ss1](https://user-images.githubusercontent.com/42913386/116748343-f3bd2e80-aa1c-11eb-9984-dcadace92ea6.PNG)
+
+## System requirements
+- Android jellybean or higher	
+- Android Studio
+- RAM: 2GB
+
+
+###### Screenshots of the app
+![ss1](https://user-images.githubusercontent.com/42913386/116748343-f3bd2e80-aa1c-11eb-9984-dcadace92ea6.PNG)   ![ss2](https://user-images.githubusercontent.com/42913386/116748642-5c0c1000-aa1d-11eb-8811-aa037e7846b2.PNG)
+
 
